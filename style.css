@@ -1,0 +1,143 @@
+#conteiner{
+    display:grid;
+    grid-template-rows: 100px 700px;
+}
+
+#navBar{
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+#left{
+    grid-column: 1;
+    display: flex;  
+}
+#bars{
+    margin: 10px 20px 20px 20px;
+}
+#center{
+    grid-column: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type=search]{
+    width: 30rem;
+    height: 40px;
+    font-size: 20px;
+    color: rgb(59, 58, 58);
+    
+    border: none;
+    padding-left: 6px;
+}
+
+.search-bar{
+    width: 35rem;
+    height: 40px;
+    background-color: rgb(58, 55, 55);
+}
+
+.search-bar a{
+     color: #fff;
+
+}
+
+.search-bar i{
+     margin-left: 1.5rem;
+     font-size: 20px;
+
+}
+
+.mic{
+    
+    border-radius: 50%;
+    height: 45px;
+    width: 40px;
+    padding: 7px 0;
+    text-align: center;
+    font-size: 40px;
+    margin: 0px 0px 0px 10px;
+}
+
+.mic a{
+     color: #000;
+}
+#right{
+    grid-column: 3;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+#icon1{
+    margin: 0px 10px 0px 0px;
+}
+#icon2{
+    margin: 0px 10px 0px 10px;
+}
+#icon3{
+    margin: 0px 10px 0px 10px;
+}
+#icon4{
+    margin: 0px 10px 0px 10px;
+}
+#pageConteiner{
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    
+
+}
+#youTubeVideoConteiner{
+    grid-column: 1;
+    display: grid;
+    grid-template-rows: 5fr 1fr 1fr;
+    
+}
+#videoContainer{
+    grid-row: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#videoDetailContainer{
+    grid-row: 2;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-left: 80px ;
+}
+#video-infoConteiner{
+    grid-row: 3;
+}
+#sideBarConteiner{
+    grid-column: 2;
+    position: absolute;
+    right:40px;
+    top: 110px;
+    width: 30vw;
+    
+}
+
+#previewVideo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.author, .data{
+    color: #AAAAAA;
+    font-size: 11px;
+    margin-top: 10px;
+}
+.title{
+    margin-top: 5px;
+    max-height: 34px;
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.thumbnail{
+    height: 100px;
+    margin-right: 5px;
+    width: 178px;
+}
